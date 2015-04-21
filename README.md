@@ -47,7 +47,7 @@ spark-submit --class com.cloudwick.spark.WordCountRunner \
 spark-submit --class com.cloudwick.spark.WordCountRunner \
     --master "local[*]" \
     [path_to_jar]/spark-starter_2.10-1.0.jar \
-    [input_path]
+    [input_path] \
     [output_path]
 ```
 
