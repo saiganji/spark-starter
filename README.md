@@ -7,7 +7,7 @@ Use this as a starter template for writing Spark applications.
 * `build.sbt` with required dependencies
 * `assembly.sbt` link to assembly plugin
 * `WordCount` spark application
-* `WordCountSpec` test suite for Spark 
+* `WordCountSpec` test suite for Spark
 
 ## Packaging the jar
 
@@ -37,7 +37,7 @@ sbt test
 spark-submit --class com.cloudwick.spark.WordCountRunner \
     --master "local[*]" \
     target/scala-2.10/spark-starter_2.10-1.0.jar \
-    [input_path]
+    [input_path] \
     [output_path]
 ```
 
